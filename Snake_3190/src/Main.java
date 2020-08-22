@@ -79,24 +79,23 @@ public class Main {
         end[0] += next[0];
         end[1] += next[1];
         //다음에 넘어갈 곳이 몸통에 닿는 부분이거나( == 2 ) map을 넘어간곳( < 0 || > n)이면 바로 리턴
-        if (end[0] < 1 || end[0] > n || end[1] < 1 || end[1] > n ) {
+        if (end[0] < 1 || end[0] > n || end[1] < 1 || end[1] > n) {
             return second;
-        } else {
-            //다음에 넘어갈 곳이 map에서 사과 있는곳( == 1 ) 이면 start 건드리지 말고 사과 있는곳이 아니면 start부분 빼주고
-            if (map[end[0]][end[1]] != 1) {
-                map[start[0]][start[1]] = 0;
-                next = d[heading[start[0]][start[1]]];
-                heading[start[0]][start[1]] = -1;
-                start[0] += next[0];
-                start[1] += next[1];
-            }
-            if(map[end[0]][end[1]] == 2){
-                return second;
-            }
-            heading[end[0]][end[1]] = head;
-            map[end[0]][end[1]] = 2;
-            return moving(start, end, second + 1);
         }
+        //다음에 넘어갈 곳이 map에서 사과 있는곳( == 1 ) 이면 start 건드리지 말고 사과 있는곳이 아니면 start부분 빼주고
+        if (map[end[0]][end[1]] != 1) {
+            map[start[0]][start[1]] = 0;
+            next = d[heading[start[0]][start[1]]];
+            heading[start[0]][start[1]] = -1;
+            start[0] += next[0];
+            start[1] += next[1];
+        }
+        if (map[end[0]][end[1]] == 2) {
+            return second;
+        }
+        heading[end[0]][end[1]] = head;
+        map[end[0]][end[1]] = 2;
+        return moving(start, end, second + 1);
 
 
     }
