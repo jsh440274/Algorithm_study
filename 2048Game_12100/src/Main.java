@@ -6,6 +6,7 @@ public class Main {
     public static ArrayList<Integer>[] copiedmap;
     public static int answer = 0;
 
+    //
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
