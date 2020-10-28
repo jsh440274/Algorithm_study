@@ -7,16 +7,12 @@ public class Main {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
         int n = Integer.parseInt(br.readLine());
-        long i = 1;
 
-        while (n > 0) {
-            if (i % 3 != 0 && i % 5 != 0) {
-                n--;
-            }
-            i++;
-        }
+        //8개 단위로 15씩 차이가 난다는 규칙이 있다. 이를 활용해서 풀이.
+        int[] rule = {1, 2, 4, 7, 8, 11, 13, 14};
+        int ans = ((n - 1) / 8) * 15 + rule[(n - 1) % 8];
+        System.out.println(ans);
 
-        System.out.println(i - 1);
     }
 }
 
