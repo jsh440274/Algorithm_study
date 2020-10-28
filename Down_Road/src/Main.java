@@ -4,6 +4,7 @@ public class Main {
     public static int[][] map;
     public static int[][] dp;
 
+    //dp 활용 풀이. 오른쪽 아래 방향으로 위, 왼쪽의 방법을 더함.
     public static int route(int i, int j) {
         int n = map.length;
         int m = map[0].length;
