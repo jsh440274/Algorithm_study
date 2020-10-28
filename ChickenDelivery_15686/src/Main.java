@@ -39,6 +39,7 @@ public class Main {
         System.out.println(answer);
     }
 
+    //dfs로 하나씩 치킨거리를 확인.
     public static void check(int start, int depth) {
         dept_arr[depth] = start + 1;
         for (int k = start; k < chickenHouse.size(); k++) {
