@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c047faf1-a8ca-4574-9e7e-588361b021ac" name="Default Changelist" comment="내리막길 문제. dp사용 풀이">
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BOJ_ChickenDelivery_15686/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../BOJ_ChickenDelivery_15686/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../BOJ_MooBuzz_18265/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../BOJ_MooBuzz_18265/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ChickenDelivery_15686/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ChickenDelivery_15686/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,7 +31,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ChickenDelivery_15686" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../BOJ_MooBuzz_18265" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -47,6 +45,17 @@
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="BOJ_DownRoad_1520" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -74,6 +83,7 @@
       <workItem from="1580200869284" duration="139000" />
       <workItem from="1603891474319" duration="337000" />
       <workItem from="1603892065953" duration="157000" />
+      <workItem from="1603892426887" duration="49000" />
     </task>
     <task id="LOCAL-00001" summary="내리막길 문제. dp사용 풀이">
       <created>1603891727795</created>
@@ -82,7 +92,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603891727795</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="내리막길 문제. dp사용 풀이">
+      <created>1603892447074</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1603892447074</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -93,18 +110,18 @@
     <option name="LAST_COMMIT_MESSAGE" value="내리막길 문제. dp사용 풀이" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="384" y="0" key="CommitChangelistDialog2" timestamp="1603892206353">
+    <state x="384" y="0" key="CommitChangelistDialog2" timestamp="1603892469393">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="384" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1603892206353" />
-    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1603892222532">
+    <state x="384" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1603892469393" />
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1603892474601">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1603892222532" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1603891865634">
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1603892474601" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1603892449790">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1603891865634" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1603892449790" />
     <state x="581" y="325" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1603891832806">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
