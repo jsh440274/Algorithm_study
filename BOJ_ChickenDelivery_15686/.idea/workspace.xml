@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e6170452-9f96-406d-b789-8570cbb79919" name="Default Changelist" comment="치킨 배달 문제. dfs 사용 풀이.">
-      <change beforePath="$PROJECT_DIR$/../BOJ_DownRoad_1520/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../BOJ_DownRoad_1520/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../BOJ_DownRoad_1520/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../BOJ_DownRoad_1520/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../BOJ_MooBuzz_18265/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../BOJ_MooBuzz_18265/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -33,7 +35,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../BOJ_DownRoad_1520" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -51,13 +53,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -83,6 +87,8 @@
       <workItem from="1582178600276" duration="8177000" />
       <workItem from="1603890549997" duration="795000" />
       <workItem from="1603892353908" duration="71000" />
+      <workItem from="1603982605972" duration="69000" />
+      <workItem from="1604020172234" duration="687000" />
     </task>
     <task id="LOCAL-00001" summary="치킨 배달 문제. dfs 사용 풀이.">
       <created>1603891087587</created>
@@ -98,7 +104,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603892386202</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="치킨 배달 문제. dfs 사용 풀이.">
+      <created>1603982651846</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1603982651846</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -109,14 +122,14 @@
     <option name="LAST_COMMIT_MESSAGE" value="치킨 배달 문제. dfs 사용 풀이." />
   </component>
   <component name="WindowStateProjectService">
-    <state x="333" y="0" key="CommitChangelistDialog2" timestamp="1603892385208">
+    <state x="333" y="0" key="CommitChangelistDialog2" timestamp="1604020218363">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="333" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1603892385208" />
-    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1603892423937">
+    <state x="333" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1604020218363" />
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1603982674241">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1603892423937" />
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1603982674241" />
     <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1603892402617">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
