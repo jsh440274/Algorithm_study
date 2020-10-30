@@ -45,11 +45,11 @@ public class Main {
 //        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 //
 //        int n = Integer.parseInt(br.readLine());
-//        long[] sang = new long[n];
+//        int[] sang = new int[n];
 //        String[] card = br.readLine().split(" ");
 //
 //        for (int i = 0; i < n; i++) {
-//            sang[i] = Long.parseLong(card[i]);
+//            sang[i] = Integer.parseInt(card[i]);
 //        }
 //
 //        Arrays.sort(sang);
@@ -58,24 +58,27 @@ public class Main {
 //
 //        String[] nums = br.readLine().split(" ");
 //        for (int i = 0; i < m; i++) {
-//            long num = Long.parseLong(nums[i]);
+//            int num = Integer.parseInt(nums[i]);
 //            int start = 0;
-//            int end = n;
+//            int end = n - 1;
 //            boolean found = false;
 //
-//            while (start < end) {
+//            while (start <= end) {
+//                if (sang[start] == num || sang[end] == num) {
+//                    found = true;
+//                    break;
+//                }
 //                int mid = (start + end) / 2;
-//                long temp = sang[mid];
+//                int temp = sang[mid];
 //                if (temp == num) {
 //                    found = true;
 //                    break;
 //                } else if (temp > num) {
-//                    end = mid;
+//                    end = mid - 1;
 //                } else {
 //                    start = mid + 1;
 //                }
 //            }
-//
 //            if (found) {
 //                System.out.print("1");
 //            } else {
