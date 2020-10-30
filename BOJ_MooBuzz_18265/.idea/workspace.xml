@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="8c0d2ea7-02da-4a09-8d8e-f097326d74c8" name="Default Changelist" comment="8개 단위로 규칙이 있다는 것을 이용한 풀이">
       <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BOJ_ChickenDelivery_15686/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../BOJ_ChickenDelivery_15686/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BOJ_DownRoad_1520/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../BOJ_DownRoad_1520/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -53,15 +51,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -86,7 +82,8 @@
       <workItem from="1603892479709" duration="596000" />
       <workItem from="1603935230112" duration="25000" />
       <workItem from="1603982728050" duration="86000" />
-      <workItem from="1604019582802" duration="451000" />
+      <workItem from="1604019582802" duration="580000" />
+      <workItem from="1604021196719" duration="67000" />
     </task>
     <task id="LOCAL-00001" summary="1부터 하나씩 비교해보는 방식은 시간초과">
       <created>1603847787444</created>
@@ -123,7 +120,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603982751877</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="8개 단위로 규칙이 있다는 것을 이용한 풀이">
+      <created>1604020087166</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1604020087166</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -137,14 +141,14 @@
     <option name="LAST_COMMIT_MESSAGE" value="8개 단위로 규칙이 있다는 것을 이용한 풀이" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="302" y="0" key="CommitChangelistDialog2" timestamp="1604019639854">
+    <state x="302" y="0" key="CommitChangelistDialog2" timestamp="1604020086104">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="302" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1604019639854" />
-    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1603889108909">
+    <state x="302" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1604020086104" />
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1604020169220">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1603889108909" />
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1604020169220" />
     <state width="1493" height="261" key="GridCell.Tab.0.bottom" timestamp="1603872031027">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -177,10 +181,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1603872031027" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1603982763981">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1604020099999">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1603982763981" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1604020099999" />
     <state x="581" y="325" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1603846834801">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
