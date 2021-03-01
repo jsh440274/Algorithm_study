@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="c047faf1-a8ca-4574-9e7e-588361b021ac" name="Default Changelist" comment="내리막길 문제. dp사용 풀이">
       <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BOJ_ChickenDelivery_15686/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../BOJ_ChickenDelivery_15686/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BOJ_MooBuzz_18265/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../BOJ_MooBuzz_18265/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,6 +86,7 @@
       <workItem from="1603892065953" duration="157000" />
       <workItem from="1603892426887" duration="49000" />
       <workItem from="1603982676988" duration="47000" />
+      <workItem from="1604021136128" duration="338000" />
     </task>
     <task id="LOCAL-00001" summary="내리막길 문제. dp사용 풀이">
       <created>1603891727795</created>
@@ -110,7 +109,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603982705571</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="내리막길 문제. dp사용 풀이">
+      <created>1604021167998</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1604021167998</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -121,14 +127,14 @@
     <option name="LAST_COMMIT_MESSAGE" value="내리막길 문제. dp사용 풀이" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="384" y="0" key="CommitChangelistDialog2" timestamp="1603982704564">
+    <state x="384" y="0" key="CommitChangelistDialog2" timestamp="1604021167053">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="384" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1603982704564" />
-    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1603982722022">
+    <state x="384" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1604021167053" />
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1604021190953">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1603982722022" />
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1604021190953" />
     <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1603892449790">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
